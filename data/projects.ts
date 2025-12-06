@@ -117,13 +117,13 @@ export const projectsData: Project[] = [
     // Replaced broken Drive link with a relevant Unsplash image (Gaming/Challenge theme)
     thumbnail: "https://drive.google.com/file/d/1uY4fwT-KvBfjzNyJdB9OdSNC9iOnbYKu/view?usp=sharing",
     images: [
-      "https://drive.google.com/file/d/1ntYtqbtk5aGdF_F7lJbGOePbkmOM4jN5/view?usp=drive_link",
-      "https://drive.google.com/file/d/11rr4yFnrVO6N7fwe4h614DUsTMoHs04V/view?usp=drive_link",
-      "https://drive.google.com/file/d/1LPVBwP4IA4KbuC88bkCTOkhrssKVmqNq/view?usp=drive_link",
-      "https://drive.google.com/file/d/1ULCT1u0H6r3TBU8JUdatTFIdRRF-X43M/view?usp=drive_link",
-      "https://drive.google.com/file/d/1Uk2VONJxi9f8-3_gAxlTLQgsLAQHUodu/view?usp=drive_link",
-      "https://drive.google.com/file/d/1hQ5FNlpgh7B76GO8dFAmPJDlyfyWRw9V/view?usp=drive_link",
-      "https://drive.google.com/file/d/1C9qW4iiIwlvSYfex5TLKPe2qTYaCmUZ0/view?usp=drive_link"
+      "https://drive.google.com/uc?export=view&id=1ntYtqbtk5aGdF_F7lJbGOePbkmOM4jN5",
+      "https://drive.google.com/uc?export=view&id=11rr4yFnrVO6N7fwe4h614DUsTMoHs04V",
+      "https://drive.google.com/uc?export=view&id=1LPVBwP4IA4KbuC88bkCTOkhrssKVmqNq",
+      "https://drive.google.com/uc?export=view&id=1ULCT1u0H6r3TBU8JUdatTFIdRRF-X43M",
+      "https://drive.google.com/uc?export=view&id=1Uk2VONJxi9f8-3_gAxlTLQgsLAQHUodu",
+      "https://drive.google.com/uc?export=view&id=1hQ5FNlpgh7B76GO8dFAmPJDlyfyWRw9V",
+      "https://drive.google.com/uc?export=view&id=1C9qW4iiIwlvSYfex5TLKPe2qTYaCmUZ0"
     ],
     techStack: ["Flutter", "Real-time DB", "In-App Purchases", "Animations"],
     links: {
