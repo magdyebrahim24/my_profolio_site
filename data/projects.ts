@@ -11,7 +11,7 @@ export const projectsData: Project[] = [
     companyUrl: "https://moltaqa.net/",
     shortDescription: "Multi-Vendor Laundry & Delivery Platform (3 Apps: User, Provider, Delivery).",
     fullDescription: "A cross-platform multi-role service app built with Flutter (using flavors) and Laravel backend. It allows users to order laundry services, providers to manage requests, and delivery agents to fulfill orders. The system includes order management, real-time tracking with Google Maps, and role-based flows.",
-    thumbnail: "https://images.unsplash.com/photo-1545173168-9f1947eebb8f?q=80&w=2071&auto=format&fit=crop", // Laundry/Clothes placeholder
+    thumbnail: "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/maghsool/logo.png",
     images: [
       "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?q=80&w=2070&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1517677208171-0bc6799a4c3d?q=80&w=2070&auto=format&fit=crop",
@@ -134,6 +134,38 @@ export const projectsData: Project[] = [
       { title: "In-App Purchases", description: "Subscriptions and flexible access to content.", icon: "shopping_cart" },
       { title: "Interactive UI", description: "Animated effects, sound feedback, and timed questions.", icon: "touch_app" }
     ]
+  },
+  {
+    id: "vorma",
+    title: "Vorma",
+    category: "Sports",
+    company: "Moltaqa Software House",
+    companyUrl: "https://moltaqa.net/",
+    shortDescription: "Discover – Play - Connect nearby sports venues.",
+    fullDescription: "Vorma is a social fitness app that connects people through sports and active lifestyles. Whether you love running, cycling, or horse riding, Vorma helps you discover nearby sports and recreational venues, join activities, and make new friends who share your passion.",
+    thumbnail: "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vorma/logo.png",
+    images: [
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vorma/screen_1.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vorma/screen_2.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vorma/screen_3.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vorma/screen_4.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vorma/screen_5.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vorma/screen_6.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vorma/screen_7.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vorma/screen_8.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vorma/screen_9.png",
+    ],
+    techStack: ["Flutter", "Google Maps", "Location Updates", "Real-time DB", "In-App Purchases", "Animations"],
+    links: {
+      playStore: "#",
+      appStore: "#"
+    },
+    features: [
+      { title: "Discover Places", description: "Explore nearby sports clubs, tracks, and recreational areas around you.", icon: "place" },
+      { title: "Join Activities", description: "Participate in running, cycling, horse riding, or other sports within registered venues.", icon: "directions_run" },
+      { title: "Performance Ranking", description: "Compete with others and track your position among top performers.", icon: "leaderboard" },
+      { title: "Social Interaction", description: "Chat with other users, make new friends, and create a sports network.", icon: "chat" },
+      { title: "Smart Map Integration", description: "Easily locate venues on the map and get directions instantly.", icon: "map" },]
   },
   {
     id: "rafeqny",
