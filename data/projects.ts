@@ -115,9 +115,15 @@ export const projectsData: Project[] = [
     shortDescription: "Multiplayer Trivia Game with real-time challenges.",
     fullDescription: "A cross-platform trivia game where users select from categories like sports and education to challenge friends in real-time. The app supports free games, subscriptions, and in-app purchases. Features include real-time multiplayer, background music, animated effects, and point-based scoring.",
     // Replaced broken Drive link with a relevant Unsplash image (Gaming/Challenge theme)
-    thumbnail: "https://images.unsplash.com/photo-1640499900704-b00dd6a1103a?q=80&w=2071&auto=format&fit=crop",
+    thumbnail: "https://drive.google.com/file/d/1uY4fwT-KvBfjzNyJdB9OdSNC9iOnbYKu/view?usp=sharing",
     images: [
-      "https://images.unsplash.com/photo-1612287230217-969b698cb6d1?q=80&w=2070&auto=format&fit=crop"
+      "https://drive.google.com/file/d/1ntYtqbtk5aGdF_F7lJbGOePbkmOM4jN5/view?usp=drive_link",
+      "https://drive.google.com/file/d/11rr4yFnrVO6N7fwe4h614DUsTMoHs04V/view?usp=drive_link",
+      "https://drive.google.com/file/d/1LPVBwP4IA4KbuC88bkCTOkhrssKVmqNq/view?usp=drive_link",
+      "https://drive.google.com/file/d/1ULCT1u0H6r3TBU8JUdatTFIdRRF-X43M/view?usp=drive_link",
+      "https://drive.google.com/file/d/1Uk2VONJxi9f8-3_gAxlTLQgsLAQHUodu/view?usp=drive_link",
+      "https://drive.google.com/file/d/1hQ5FNlpgh7B76GO8dFAmPJDlyfyWRw9V/view?usp=drive_link",
+      "https://drive.google.com/file/d/1C9qW4iiIwlvSYfex5TLKPe2qTYaCmUZ0/view?usp=drive_link"
     ],
     techStack: ["Flutter", "Real-time DB", "In-App Purchases", "Animations"],
     links: {
