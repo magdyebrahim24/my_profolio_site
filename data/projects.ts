@@ -155,7 +155,7 @@ export const projectsData: Project[] = [
       "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vorma/screen_8.png",
       "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vorma/screen_9.png",
     ],
-    techStack: ["Flutter", "Google Maps", "Location Updates", "Real-time DB", "In-App Purchases", "Animations"],
+    techStack: ["Flutter", "Google Maps", "Location Updates", "Real-time DB", "In-App Purchases", "Animations",],
     links: {
       playStore: "#",
       appStore: "#"
