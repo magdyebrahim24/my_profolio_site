@@ -114,15 +114,15 @@ export const projectsData: Project[] = [
     companyUrl: "https://moltaqa.net/",
     shortDescription: "Multiplayer Trivia Game with real-time challenges.",
     fullDescription: "A cross-platform trivia game where users select from categories like sports and education to challenge friends in real-time. The app supports free games, subscriptions, and in-app purchases. Features include real-time multiplayer, background music, animated effects, and point-based scoring.",
-    thumbnail: "https://github.com/magdyebrahim24/my_profolio_site/blob/main/public/images/sahet_eltahadi/logo.png",
+    thumbnail: "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/sahet_eltahadi/logo.png",
     images: [
-      "https://github.com/magdyebrahim24/my_profolio_site/blob/main/public/images/sahet_eltahadi/screen_1.png",
-      "https://github.com/magdyebrahim24/my_profolio_site/blob/main/public/images/sahet_eltahadi/screen_2.png",
-      "https://github.com/magdyebrahim24/my_profolio_site/blob/main/public/images/sahet_eltahadi/screen_3.png",
-      "https://github.com/magdyebrahim24/my_profolio_site/blob/main/public/images/sahet_eltahadi/screen_4.png",
-      "https://github.com/magdyebrahim24/my_profolio_site/blob/main/public/images/sahet_eltahadi/screen_5.png",
-      "https://github.com/magdyebrahim24/my_profolio_site/blob/main/public/images/sahet_eltahadi/screen_6.png",
-      "https://github.com/magdyebrahim24/my_profolio_site/blob/main/public/images/sahet_eltahadi/screen_7.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/sahet_eltahadi/screen_1.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/sahet_eltahadi/screen_2.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/sahet_eltahadi/screen_3.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/sahet_eltahadi/screen_4.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/sahet_eltahadi/screen_5.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/sahet_eltahadi/screen_6.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/sahet_eltahadi/screen_7.png"
     ],
     techStack: ["Flutter", "Real-time DB", "In-App Purchases", "Animations"],
     links: {

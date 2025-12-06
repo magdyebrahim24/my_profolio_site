@@ -80,7 +80,7 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
             src={project.thumbnail}
             alt={project.title}
             className="w-full h-full object-cover"
-            referrerPolicy="no-referrer"
+            // referrerPolicy="no-referrer"
             onError={() => setImgError(true)}
           />
         ) : (

@@ -16,7 +16,7 @@ const GalleryImage: React.FC<{ src: string; alt: string }> = ({ src, alt }) => {
           src={src} 
           alt={alt} 
           className={`h-full w-auto object-cover transition-opacity duration-300 ${isLoading ? 'opacity-0' : 'opacity-100'}`}
-          referrerPolicy="no-referrer"
+        //   referrerPolicy="no-referrer"
           onLoad={() => setIsLoading(false)}
           onError={() => {
             setHasError(true);
@@ -128,7 +128,7 @@ export const ProjectDetail = () => {
             <img 
                 src={project.thumbnail} 
                 alt="Logo" 
-                referrerPolicy="no-referrer"
+                // referrerPolicy="no-referrer"
                 className="w-20 h-20 md:w-24 md:h-24 rounded-2xl shadow-lg object-cover bg-white dark:bg-white/10"
             />
             {/* Mobile Title - visible only on small screens next to logo */}
