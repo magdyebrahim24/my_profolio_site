@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://magdyebrahim24.github.io/my_profolio_site/sitemap.xml
