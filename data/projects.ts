@@ -278,6 +278,31 @@ export const projectsData: Project[] = [
       }
     ]
   },
+  {
+    id: "vibers-net",
+    title: "Vibers Net",
+    category: "Media",
+    company: "Vibers Net Startup",
+    shortDescription: "Media Streaming & Content Platform.",
+    fullDescription: "A startup product focused on building a full-featured video streaming app for movies and series. Features advanced video playback with custom controls, category browsing, wishlist, and content previews.",
+    thumbnail: "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vibers-net/logo.png",
+    images: [
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vibers-net/screen_1.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vibers-net/screen_2.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vibers-net/screen_3.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vibers-net/screen_4.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vibers-net/screen_5.png"
+    ],
+    techStack: ["Flutter", "Video Player", "Streaming", "Clean Architecture"],
+    links: {
+      playStore: "https://play.google.com/store/apps/details?id=com.roaya.vn",
+      appStore: "https://apps.apple.com/us/app/vibers-net/id6738211316"
+    },
+    features: [
+      { title: "Advanced Playback", description: "Custom controls, full-screen modes, and smooth streaming.", icon: "play_arrow" },
+      { title: "Content Discovery", description: "Category browsing and wishlists.", icon: "movie" }
+    ]
+  },
 
   {
     id: "rafeqny",
@@ -287,7 +312,7 @@ export const projectsData: Project[] = [
     companyUrl: "https://moltaqa.net/",
     shortDescription: "Multi-Vendor Task Management & Service App.",
     fullDescription: "A dual-role service app where providers can hire clients to perform tasks, manage job flow, and track them in real-time using Google Maps.",
-    thumbnail:       "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/rafiqny/logo.png",
+    thumbnail: "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/rafiqny/logo.png",
 
     techStack: ["Flutter", "Firebase", "Bloc", "Google Maps SDK", "Schedule Notifications"],
     links: {
@@ -419,31 +444,7 @@ export const projectsData: Project[] = [
       { title: "Offline Access", description: "Access courses and lessons without internet.", icon: "offline_pin" }
     ]
   },
-  {
-    id: "vibers-net",
-    title: "Vibers Net",
-    category: "Media",
-    company: "Vibers Net Startup",
-    shortDescription: "Media Streaming & Content Platform.",
-    fullDescription: "A startup product focused on building a full-featured video streaming app for movies and series. Features advanced video playback with custom controls, category browsing, wishlist, and content previews.",
-    thumbnail: "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vibers-net/logo.png",
-    images: [
-      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vibers-net/screen_1.png",
-      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vibers-net/screen_2.png",
-      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vibers-net/screen_3.png",
-      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vibers-net/screen_4.png",
-      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vibers-net/screen_5.png"
-    ],
-    techStack: ["Flutter", "Video Player", "Streaming", "Clean Architecture"],
-    links: {
-      playStore: "https://play.google.com/store/apps/details?id=com.roaya.vn",
-      appStore: "https://apps.apple.com/us/app/vibers-net/id6738211316"
-    },
-    features: [
-      { title: "Advanced Playback", description: "Custom controls, full-screen modes, and smooth streaming.", icon: "play_arrow" },
-      { title: "Content Discovery", description: "Category browsing and wishlists.", icon: "movie" }
-    ]
-  },
+
   {
     id: "otluo",
     title: "Otluo",
