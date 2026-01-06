@@ -219,17 +219,45 @@ export const projectsData: Project[] = [
       "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vorma/screen_8.png",
       "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vorma/screen_9.png",
     ],
-    techStack: ["Flutter", "Google Maps", "Location Updates", "Real-time DB", "In-App Purchases", "Animations",],
+    techStack: ["Flutter", "Platform Channels", "Native iOS & Android Sensors", "Pedometer & Step Counter APIs", "Google Maps", "Location Updates", "Real-time DB", "In-App Purchases", "Animations",],
     links: {
       playStore: "#",
       appStore: "#"
     },
     features: [
-      { title: "Discover Places", description: "Explore nearby sports clubs, tracks, and recreational areas around you.", icon: "place" },
-      { title: "Join Activities", description: "Participate in running, cycling, horse riding, or other sports within registered venues.", icon: "directions_run" },
-      { title: "Performance Ranking", description: "Compete with others and track your position among top performers.", icon: "leaderboard" },
-      { title: "Social Interaction", description: "Chat with other users, make new friends, and create a sports network.", icon: "chat" },
-      { title: "Smart Map Integration", description: "Easily locate venues on the map and get directions instantly.", icon: "map" },]
+      {
+        title: "Smart Venue Discovery",
+        description: "Discover nearby sports venues and recreational locations using map and location services.",
+        icon: "place"
+      },
+      {
+        title: "Activity Participation",
+        description: "Join and engage in sports activities such as running, cycling, and horse riding.",
+        icon: "directions_run"
+      },
+      {
+        title: "Daily Step Tracking",
+        description: "Accurate daily step counting using native pedometer and motion sensors on iOS and Android.",
+        icon: "directions_walk"
+      },
+      {
+        title: "Performance Ranking",
+        description: "Compete with other users through rankings based on activity and performance metrics.",
+        icon: "leaderboard"
+      },
+      {
+        title: "Social Interaction",
+        description: "Chat with other users, build connections, and grow a sports-focused social network.",
+        icon: "chat"
+      },
+      {
+        title: "Map-Based Navigation",
+        description: "View venues on interactive maps and get directions instantly.",
+        icon: "map"
+      }
+    ],
+    role: "Contributed to the application architecture, shared Flutter components, authentication flows, real-time communication features, native sensor integration (iOS & Android), and core social fitness functionalities including groups, chat, competitions, and activity tracking."
+
   },
   {
     id: "rafeqny",
