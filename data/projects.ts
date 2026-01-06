@@ -402,7 +402,14 @@ export const projectsData: Project[] = [
     companyUrl: "https://moltaqa.net/",
     shortDescription: "Educational platform for teachers and students with Jitsi.",
     fullDescription: "An innovative educational app that provides both online and offline courses. Supports live private lessons using Jitsi integration with screen sharing, participant management, and real-time AV tools. Offers multi-interface access for teachers and students.",
-    thumbnail: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?q=80&w=1974&auto=format&fit=crop", // Education
+    thumbnail: "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/khsosy/logo.png",
+    images: [
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/khsosy/screen_0.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/khsosy/screen_1.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/khsosy/screen_2.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/khsosy/screen_3.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/khsosy/screen_4.png"
+    ],
     techStack: ["Flutter", "Jitsi Meet", "Offline Mode", "Video Streaming"],
     links: {
       playStore: "#",
