@@ -23,7 +23,8 @@ export const projectsData: Project[] = [
       "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/modo/screen_7.png",
       "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/modo/screen_8.png",
       "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/modo/screen_9.png",
-    ], techStack: ["Flutter", "Google Maps", "Flavors", "Clean Architecture"],
+    ],
+    techStack: ["Flutter", "Google Maps", "Flavors", "Clean Architecture"],
     links: {
       playStore: "#",
       appStore: "#"
@@ -117,7 +118,9 @@ export const projectsData: Project[] = [
     ],
     role: "Contributed to the application architecture, shared Flutter components, authentication flows, real-time communication features, native sensor integration (iOS & Android), and core social fitness functionalities including groups, chat, competitions, and activity tracking."
 
-  }, {
+  },
+
+  {
     id: "sahet-eltahadi",
     title: "Sahet ElTahadi",
     category: "Game",
@@ -194,7 +197,17 @@ export const projectsData: Project[] = [
     company: "Linkey Startup",
     shortDescription: "Multi-Role Service Marketplace App.",
     fullDescription: "A cross-platform startup app that connects service providers and clients across various domains. Developed the entire mobile application using Flutter, supporting multi-role access for providers (who register, publish services, and manage requests) and clients (who send inquiries and negotiate through in-app chat).",
-    thumbnail: "https://images.unsplash.com/photo-1556742049-0cfed4f7a07d?q=80&w=2070&auto=format&fit=crop", // Handshake/Marketplace placeholder
+    thumbnail: "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/linkey/logo.png",
+    images: [
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/linkey/screen_0.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/linkey/screen_1.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/linkey/screen_2.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/linkey/screen_3.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/linkey/screen_4.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/linkey/screen_5.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/linkey/screen_6.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/linkey/screen_7.png"
+    ],
     techStack: ["Flutter", "Socket.IO", "Media Uploads", "Multilingual UI"],
     links: {
       playStore: "#",
