@@ -156,9 +156,8 @@ export const projectsData: Project[] = [
     fullDescription: "A cross-platform multi-role service app built with Flutter (using flavors) and Laravel backend. It allows users to order laundry services, providers to manage requests, and delivery agents to fulfill orders. The system includes order management, real-time tracking with Google Maps, and role-based flows.",
     thumbnail: "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/maghsool/logo.png",
     images: [
-      "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?q=80&w=2070&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1517677208171-0bc6799a4c3d?q=80&w=2070&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1517677208171-0bc6799a4c3d?q=80&w=2070&auto=format&fit=crop"
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/maghsool/screen_1.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/maghsool/screen_1.png"
     ],
     techStack: ["Flutter", "Laravel", "Google Maps", "Flavors", "Bloc", "Clean Architecture"],
     links: {
@@ -196,7 +195,6 @@ export const projectsData: Project[] = [
     fullDescription: "A cross-platform startup app that connects service providers and clients across various domains. Developed the entire mobile application using Flutter, supporting multi-role access for providers (who register, publish services, and manage requests) and clients (who send inquiries and negotiate through in-app chat).",
     thumbnail: "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/linkey/logo.png",
     images: [
-      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/linkey/screen_0.png",
       "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/linkey/screen_1.png",
       "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/linkey/screen_2.png",
       "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/linkey/screen_3.png",
