@@ -4,46 +4,6 @@ import { Project } from '../types';
 
 export const projectsData: Project[] = [
   {
-    id: "maghsool",
-    title: "Maghsool",
-    category: "Services",
-    company: "Moltaqa Software House",
-    companyUrl: "https://moltaqa.net/",
-    shortDescription: "Multi-Vendor Laundry & Delivery Platform (3 Apps: User, Provider, Delivery).",
-    fullDescription: "A cross-platform multi-role service app built with Flutter (using flavors) and Laravel backend. It allows users to order laundry services, providers to manage requests, and delivery agents to fulfill orders. The system includes order management, real-time tracking with Google Maps, and role-based flows.",
-    thumbnail: "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/maghsool/logo.png",
-    images: [
-      "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?q=80&w=2070&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1517677208171-0bc6799a4c3d?q=80&w=2070&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1517677208171-0bc6799a4c3d?q=80&w=2070&auto=format&fit=crop"
-    ],
-    techStack: ["Flutter", "Laravel", "Google Maps", "Flavors", "Bloc", "Clean Architecture"],
-    links: {
-      playStore: "#",
-      appStore: "#"
-    },
-    apps: [
-      {
-        name: "User App",
-        links: { playStore: "#", appStore: "#" }
-      },
-      {
-        name: "Provider App",
-        links: { playStore: "#", appStore: "#" }
-      },
-      {
-        name: "Delivery App",
-        links: { playStore: "#", appStore: "#" }
-      }
-    ],
-    features: [
-      { title: "Multi-Role", description: "Distinct apps for Users, Providers, and Delivery agents using Flutter Flavors.", icon: "group_work" },
-      { title: "Real-time Tracking", description: "Live tracking of orders and delivery agents via Google Maps.", icon: "location_on" },
-      { title: "Order Management", description: "Comprehensive flow for placing, processing, and delivering laundry orders.", icon: "inventory" }
-    ],
-    role: "Contributed to app architecture and core features. Implemented role-based flows and map tracking."
-  },
-  {
     id: "modo",
     title: "Modo",
     category: "Services",
@@ -86,6 +46,47 @@ export const projectsData: Project[] = [
     ],
     role: "Contributed to app structure, shared components, authentication, and key delivery features."
   },
+  {
+    id: "maghsool",
+    title: "Maghsool",
+    category: "Services",
+    company: "Moltaqa Software House",
+    companyUrl: "https://moltaqa.net/",
+    shortDescription: "Multi-Vendor Laundry & Delivery Platform (3 Apps: User, Provider, Delivery).",
+    fullDescription: "A cross-platform multi-role service app built with Flutter (using flavors) and Laravel backend. It allows users to order laundry services, providers to manage requests, and delivery agents to fulfill orders. The system includes order management, real-time tracking with Google Maps, and role-based flows.",
+    thumbnail: "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/maghsool/logo.png",
+    images: [
+      "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?q=80&w=2070&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1517677208171-0bc6799a4c3d?q=80&w=2070&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1517677208171-0bc6799a4c3d?q=80&w=2070&auto=format&fit=crop"
+    ],
+    techStack: ["Flutter", "Laravel", "Google Maps", "Flavors", "Bloc", "Clean Architecture"],
+    links: {
+      playStore: "#",
+      appStore: "#"
+    },
+    apps: [
+      {
+        name: "User App",
+        links: { playStore: "#", appStore: "#" }
+      },
+      {
+        name: "Provider App",
+        links: { playStore: "#", appStore: "#" }
+      },
+      {
+        name: "Delivery App",
+        links: { playStore: "#", appStore: "#" }
+      }
+    ],
+    features: [
+      { title: "Multi-Role", description: "Distinct apps for Users, Providers, and Delivery agents using Flutter Flavors.", icon: "group_work" },
+      { title: "Real-time Tracking", description: "Live tracking of orders and delivery agents via Google Maps.", icon: "location_on" },
+      { title: "Order Management", description: "Comprehensive flow for placing, processing, and delivering laundry orders.", icon: "inventory" }
+    ],
+    role: "Contributed to app architecture and core features. Implemented role-based flows and map tracking."
+  },
+
   {
     id: "linkey",
     title: "Linkey",
@@ -135,6 +136,69 @@ export const projectsData: Project[] = [
       { title: "Interactive UI", description: "Animated effects, sound feedback, and timed questions.", icon: "touch_app" }
     ]
   },
+  {
+    id: "remotly",
+    title: "Remotly",
+    category: "Education",
+    company: "Moltaqa Software House",
+    companyUrl: "https://moltaqa.net/",
+    shortDescription: "Role-based educational platform for students and teachers with live online classes.",
+    fullDescription: "Remoty is a Flutter-based educational application built with a role-based architecture for students and teachers. The platform enables structured digital learning through course management, educational resources, help requests, timetables, and real-time online lectures. Teachers can create and manage learning content, schedule sessions, and conduct live classes, while students access materials and interact in real time. Live lectures are powered by Jitsi SDK with screen sharing support, ensuring an interactive and scalable online learning experience.",
+    thumbnail: "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/remotly/logo.png",
+    images: [
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/remotly/screen_1.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/remotly/screen_2.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/remotly/screen_3.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/remotly/screen_4.png"
+    ],
+    techStack: [
+      "Flutter",
+      "Clean Architecture",
+      "Role-Based Access Control",
+      "Jitsi SDK",
+      "Real-time Communication",
+      "State Management",
+      "REST APIs",
+      "Responsive UI"
+    ],
+    links: {
+      playStore: "#",
+      appStore: "#"
+    },
+    features: [
+      {
+        title: "Role-Based System",
+        description: "Separate feature sets and workflows for students and teachers with controlled access.",
+        icon: "security"
+      },
+      {
+        title: "Course Management",
+        description: "Teachers create and manage courses, while students browse and enroll in available content.",
+        icon: "school"
+      },
+      {
+        title: "Live Online Lectures",
+        description: "Real-time video conferencing powered by Jitsi SDK with screen sharing support.",
+        icon: "video_call"
+      },
+      {
+        title: "Timetable & Scheduling",
+        description: "Organized schedules for lectures and learning sessions with clear time management.",
+        icon: "schedule"
+      },
+      {
+        title: "Educational Resources",
+        description: "Access to digital books and learning materials directly within the app.",
+        icon: "menu_book"
+      },
+      {
+        title: "Help Requests",
+        description: "Students can submit help requests and communicate directly with teachers.",
+        icon: "support_agent"
+      }
+    ]
+  },
+
   {
     id: "vorma",
     title: "Vorma",
