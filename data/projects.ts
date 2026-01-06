@@ -287,7 +287,8 @@ export const projectsData: Project[] = [
     companyUrl: "https://moltaqa.net/",
     shortDescription: "Multi-Vendor Task Management & Service App.",
     fullDescription: "A dual-role service app where providers can hire clients to perform tasks, manage job flow, and track them in real-time using Google Maps.",
-    thumbnail: "https://images.unsplash.com/photo-1572509018340-d2c0ec229986?q=80&w=2069&auto=format&fit=crop", // Map/Phone placeholder
+    thumbnail:       "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/rafiqny/logo.png",
+
     techStack: ["Flutter", "Firebase", "Bloc", "Google Maps SDK", "Schedule Notifications"],
     links: {
       playStore: "#",
