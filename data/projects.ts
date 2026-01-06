@@ -11,8 +11,19 @@ export const projectsData: Project[] = [
     companyUrl: "https://moltaqa.net/",
     shortDescription: "Multi-Vendor Delivery Platform (User, Provider, Delivery).",
     fullDescription: "A full delivery system consisting of three role-based apps developed using Flutter and flavors: User, Provider, and Delivery. Supports order placement, live tracking via Google Maps, and provider tools to manage stores and products.",
-    thumbnail: "https://images.unsplash.com/photo-1616401784845-180882ba9ba8?q=80&w=2070&auto=format&fit=crop", // Delivery package placeholder
-    techStack: ["Flutter", "Google Maps", "Flavors", "Clean Architecture"],
+    thumbnail: "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/modo/logo.png",
+    images: [
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/modo/screen_0.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/modo/screen_1.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/modo/screen_2.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/modo/screen_3.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/modo/screen_4.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/modo/screen_5.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/modo/screen_6.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/modo/screen_7.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/modo/screen_8.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/modo/screen_9.png",
+    ], techStack: ["Flutter", "Google Maps", "Flavors", "Clean Architecture"],
     links: {
       playStore: "#",
       appStore: "#"
@@ -45,6 +56,95 @@ export const projectsData: Project[] = [
       { title: "Store Management", description: "Provider tools to manage stores and products.", icon: "store" }
     ],
     role: "Contributed to app structure, shared components, authentication, and key delivery features."
+  },
+
+  {
+    id: "vorma",
+    title: "Vorma",
+    category: "Sports",
+    company: "Moltaqa Software House",
+    companyUrl: "https://moltaqa.net/",
+    shortDescription: "Discover – Play - Connect nearby sports venues.",
+    fullDescription: "Vorma is a social fitness app that connects people through sports and active lifestyles. Whether you love running, cycling, or horse riding, Vorma helps you discover nearby sports and recreational venues, join activities, and make new friends who share your passion.",
+    thumbnail: "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vorma/logo.png",
+    images: [
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vorma/screen_1.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vorma/screen_2.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vorma/screen_3.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vorma/screen_4.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vorma/screen_5.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vorma/screen_6.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vorma/screen_7.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vorma/screen_8.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vorma/screen_9.png",
+    ],
+    techStack: ["Flutter", "Platform Channels", "Native iOS & Android Sensors", "Pedometer & Step Counter APIs", "Google Maps", "Location Updates", "Real-time DB", "In-App Purchases", "Animations",],
+    links: {
+      playStore: "#",
+      appStore: "#"
+    },
+    features: [
+      {
+        title: "Smart Venue Discovery",
+        description: "Discover nearby sports venues and recreational locations using map and location services.",
+        icon: "place"
+      },
+      {
+        title: "Activity Participation",
+        description: "Join and engage in sports activities such as running, cycling, and horse riding.",
+        icon: "directions_run"
+      },
+      {
+        title: "Daily Step Tracking",
+        description: "Accurate daily step counting using native pedometer and motion sensors on iOS and Android.",
+        icon: "directions_walk"
+      },
+      {
+        title: "Performance Ranking",
+        description: "Compete with other users through rankings based on activity and performance metrics.",
+        icon: "leaderboard"
+      },
+      {
+        title: "Social Interaction",
+        description: "Chat with other users, build connections, and grow a sports-focused social network.",
+        icon: "chat"
+      },
+      {
+        title: "Map-Based Navigation",
+        description: "View venues on interactive maps and get directions instantly.",
+        icon: "map"
+      }
+    ],
+    role: "Contributed to the application architecture, shared Flutter components, authentication flows, real-time communication features, native sensor integration (iOS & Android), and core social fitness functionalities including groups, chat, competitions, and activity tracking."
+
+  }, {
+    id: "sahet-eltahadi",
+    title: "Sahet ElTahadi",
+    category: "Game",
+    company: "Moltaqa Software House",
+    companyUrl: "https://moltaqa.net/",
+    shortDescription: "Multiplayer Trivia Game with real-time challenges.",
+    fullDescription: "A cross-platform trivia game where users select from categories like sports and education to challenge friends in real-time. The app supports free games, subscriptions, and in-app purchases. Features include real-time multiplayer, background music, animated effects, and point-based scoring.",
+    thumbnail: "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/sahet_eltahadi/logo.png",
+    images: [
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/sahet_eltahadi/screen_1.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/sahet_eltahadi/screen_2.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/sahet_eltahadi/screen_3.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/sahet_eltahadi/screen_4.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/sahet_eltahadi/screen_5.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/sahet_eltahadi/screen_6.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/sahet_eltahadi/screen_7.png"
+    ],
+    techStack: ["Flutter", "Real-time DB", "In-App Purchases", "Animations"],
+    links: {
+      playStore: "https://play.google.com/store/apps/details?id=com.moltaqa.sahet.eltahadi",
+      appStore: "https://apps.apple.com/us/app/%D8%B3%D8%A7%D8%AD%D8%A9-%D8%A7%D9%84%D8%AA%D8%AD%D8%AF%D9%8A/id6745170793"
+    },
+    features: [
+      { title: "Real-Time Multiplayer", description: "Challenge friends instantly in trivia battles.", icon: "sports_esports" },
+      { title: "In-App Purchases", description: "Subscriptions and flexible access to content.", icon: "shopping_cart" },
+      { title: "Interactive UI", description: "Animated effects, sound feedback, and timed questions.", icon: "touch_app" }
+    ]
   },
   {
     id: "maghsool",
@@ -107,35 +207,7 @@ export const projectsData: Project[] = [
     ],
     role: "Developed the complete cross-platform app, implementing chat, media uploads, and UI."
   },
-  {
-    id: "sahet-eltahadi",
-    title: "Sahet ElTahadi",
-    category: "Game",
-    company: "Moltaqa Software House",
-    companyUrl: "https://moltaqa.net/",
-    shortDescription: "Multiplayer Trivia Game with real-time challenges.",
-    fullDescription: "A cross-platform trivia game where users select from categories like sports and education to challenge friends in real-time. The app supports free games, subscriptions, and in-app purchases. Features include real-time multiplayer, background music, animated effects, and point-based scoring.",
-    thumbnail: "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/sahet_eltahadi/logo.png",
-    images: [
-      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/sahet_eltahadi/screen_1.png",
-      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/sahet_eltahadi/screen_2.png",
-      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/sahet_eltahadi/screen_3.png",
-      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/sahet_eltahadi/screen_4.png",
-      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/sahet_eltahadi/screen_5.png",
-      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/sahet_eltahadi/screen_6.png",
-      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/sahet_eltahadi/screen_7.png"
-    ],
-    techStack: ["Flutter", "Real-time DB", "In-App Purchases", "Animations"],
-    links: {
-      playStore: "https://play.google.com/store/apps/details?id=com.moltaqa.sahet.eltahadi",
-      appStore: "https://apps.apple.com/us/app/%D8%B3%D8%A7%D8%AD%D8%A9-%D8%A7%D9%84%D8%AA%D8%AD%D8%AF%D9%8A/id6745170793"
-    },
-    features: [
-      { title: "Real-Time Multiplayer", description: "Challenge friends instantly in trivia battles.", icon: "sports_esports" },
-      { title: "In-App Purchases", description: "Subscriptions and flexible access to content.", icon: "shopping_cart" },
-      { title: "Interactive UI", description: "Animated effects, sound feedback, and timed questions.", icon: "touch_app" }
-    ]
-  },
+
   {
     id: "remotly",
     title: "Remotly",
@@ -199,66 +271,6 @@ export const projectsData: Project[] = [
     ]
   },
 
-  {
-    id: "vorma",
-    title: "Vorma",
-    category: "Sports",
-    company: "Moltaqa Software House",
-    companyUrl: "https://moltaqa.net/",
-    shortDescription: "Discover – Play - Connect nearby sports venues.",
-    fullDescription: "Vorma is a social fitness app that connects people through sports and active lifestyles. Whether you love running, cycling, or horse riding, Vorma helps you discover nearby sports and recreational venues, join activities, and make new friends who share your passion.",
-    thumbnail: "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vorma/logo.png",
-    images: [
-      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vorma/screen_1.png",
-      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vorma/screen_2.png",
-      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vorma/screen_3.png",
-      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vorma/screen_4.png",
-      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vorma/screen_5.png",
-      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vorma/screen_6.png",
-      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vorma/screen_7.png",
-      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vorma/screen_8.png",
-      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vorma/screen_9.png",
-    ],
-    techStack: ["Flutter", "Platform Channels", "Native iOS & Android Sensors", "Pedometer & Step Counter APIs", "Google Maps", "Location Updates", "Real-time DB", "In-App Purchases", "Animations",],
-    links: {
-      playStore: "#",
-      appStore: "#"
-    },
-    features: [
-      {
-        title: "Smart Venue Discovery",
-        description: "Discover nearby sports venues and recreational locations using map and location services.",
-        icon: "place"
-      },
-      {
-        title: "Activity Participation",
-        description: "Join and engage in sports activities such as running, cycling, and horse riding.",
-        icon: "directions_run"
-      },
-      {
-        title: "Daily Step Tracking",
-        description: "Accurate daily step counting using native pedometer and motion sensors on iOS and Android.",
-        icon: "directions_walk"
-      },
-      {
-        title: "Performance Ranking",
-        description: "Compete with other users through rankings based on activity and performance metrics.",
-        icon: "leaderboard"
-      },
-      {
-        title: "Social Interaction",
-        description: "Chat with other users, build connections, and grow a sports-focused social network.",
-        icon: "chat"
-      },
-      {
-        title: "Map-Based Navigation",
-        description: "View venues on interactive maps and get directions instantly.",
-        icon: "map"
-      }
-    ],
-    role: "Contributed to the application architecture, shared Flutter components, authentication flows, real-time communication features, native sensor integration (iOS & Android), and core social fitness functionalities including groups, chat, competitions, and activity tracking."
-
-  },
   {
     id: "rafeqny",
     title: "Rafeqny",
