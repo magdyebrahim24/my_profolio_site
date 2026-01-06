@@ -19,10 +19,7 @@ export const projectsData: Project[] = [
       "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/modo/screen_3.png",
       "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/modo/screen_4.png",
       "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/modo/screen_5.png",
-      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/modo/screen_6.png",
-      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/modo/screen_7.png",
-      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/modo/screen_8.png",
-      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/modo/screen_9.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/modo/screen_6.png"
     ],
     techStack: ["Flutter", "Google Maps", "Flavors", "Clean Architecture"],
     links: {
@@ -423,7 +420,14 @@ export const projectsData: Project[] = [
     company: "Vibers Net Startup",
     shortDescription: "Media Streaming & Content Platform.",
     fullDescription: "A startup product focused on building a full-featured video streaming app for movies and series. Features advanced video playback with custom controls, category browsing, wishlist, and content previews.",
-    thumbnail: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=1974&auto=format&fit=crop", // Streaming
+    thumbnail: "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vibers-net/logo.png",
+    images: [
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vibers-net/screen_1.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vibers-net/screen_2.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vibers-net/screen_3.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vibers-net/screen_4.png",
+      "https://raw.githubusercontent.com/magdyebrahim24/my_profolio_site/main/public/images/vibers-net/screen_5.png"
+    ],
     techStack: ["Flutter", "Video Player", "Streaming", "Clean Architecture"],
     links: {
       playStore: "https://play.google.com/store/apps/details?id=com.roaya.vn",
