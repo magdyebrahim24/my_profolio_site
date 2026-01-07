@@ -10,7 +10,7 @@ const GalleryImage: React.FC<{ src: string; alt: string }> = ({ src, alt }) => {
   const [isLoading, setIsLoading] = useState(true);
 
   return (
-    <div className="relative h-48 sm:h-64 md:h-80 w-auto min-w-[12rem] shrink-0 rounded-xl shadow-md snap-center border border-gray-100 dark:border-gray-800 overflow-hidden bg-gray-50 dark:bg-white/5">
+    <div className="relative flex justify-center h-48 sm:h-64 md:h-80 w-auto min-w-[12rem] shrink-0 rounded-xl shadow-md snap-center border border-gray-100 dark:border-gray-800 overflow-hidden bg-gray-50 dark:bg-white/5">
       {!hasError ? (
         <img 
           src={src} 
@@ -111,7 +111,7 @@ export const ProjectDetail = () => {
   }
 
   return (
-    <div className="layout-container max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-6 md:py-12">
+    <div className="layout-container w-full max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-6 md:py-12">
       {/* Breadcrumb */}
       <AnimatedSection className="flex items-center gap-2 mb-6 md:mb-8 text-sm">
         <Link to="/projects" className="text-gray-500 hover:text-primary flex items-center gap-1">
