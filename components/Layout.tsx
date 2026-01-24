@@ -27,14 +27,32 @@ const Navigation = () => {
       <div className="layout-container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 md:h-20 items-center justify-between">
           <NavLink to="/" className="flex items-center gap-3 group">
-             {/* Custom Logo: Black square with Blue M */}
-             <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" className="shrink-0 group-hover:scale-110 transition-transform duration-300">
+            {/* Custom Logo: Image with fallback to Black square with Blue M */}
+            <div className="relative shrink-0 w-10 h-10 group-hover:scale-110 transition-transform duration-300">
+              <img
+                src="/images/rounded.png"
+                alt="Megs Logo"
+                className="w-full h-full object-contain rounded-lg absolute top-0 left-0 transition-opacity duration-300"
+                onError={(e) => {
+                  e.currentTarget.style.opacity = '0';
+                  e.currentTarget.nextElementSibling?.classList.remove('opacity-0');
+                }}
+              />
+              <svg
+                width="40"
+                height="40"
+                viewBox="0 0 40 40"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                className="w-full h-full opacity-0 absolute top-0 left-0 transition-opacity duration-300"
+              >
                 <rect width="40" height="40" rx="8" fill="#101c22" className="fill-black dark:fill-white/10" />
                 <path d="M10 12V28H14V18L18 28H22L26 18V28H30V12H24L20 22L16 12H10Z" fill="#0DA6F2" />
-             </svg>
-             <h1 className="text-lg md:text-xl font-display font-bold text-gray-900 dark:text-white tracking-tight">
-               Megs
-             </h1>
+              </svg>
+            </div>
+            <h1 className="text-lg md:text-xl font-display font-bold text-gray-900 dark:text-white tracking-tight">
+              Megs
+            </h1>
           </NavLink>
 
           <nav className="hidden md:flex gap-8 items-center">
@@ -43,8 +61,7 @@ const Navigation = () => {
                 key={link.name}
                 to={link.path}
                 className={({ isActive }) =>
-                  `text-sm font-bold transition-colors hover:text-primary ${
-                    isActive ? 'text-primary' : 'text-gray-600 dark:text-gray-400'
+                  `text-sm font-bold transition-colors hover:text-primary ${isActive ? 'text-primary' : 'text-gray-600 dark:text-gray-400'
                   }`
                 }
               >
@@ -59,7 +76,7 @@ const Navigation = () => {
             aria-label="Toggle menu"
           >
             <span className="material-symbols-outlined text-3xl">
-                {isOpen ? 'close' : 'menu'}
+              {isOpen ? 'close' : 'menu'}
             </span>
           </button>
         </div>
@@ -80,10 +97,9 @@ const Navigation = () => {
                   key={link.name}
                   to={link.path}
                   className={({ isActive }) =>
-                    `text-base font-bold py-3 px-4 rounded-xl transition-colors ${
-                      isActive
-                        ? 'bg-primary/10 text-primary'
-                        : 'text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800'
+                    `text-base font-bold py-3 px-4 rounded-xl transition-colors ${isActive
+                      ? 'bg-primary/10 text-primary'
+                      : 'text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800'
                     }`
                   }
                 >
@@ -115,18 +131,18 @@ const Footer = () => (
             className="text-gray-500 dark:text-gray-400 hover:text-primary transition-colors hover:scale-110 transform duration-200"
           >
             <svg viewBox="0 0 24 24" className="w-6 h-6 fill-current">
-                <path d={item.icon} />
+              <path d={item.icon} />
             </svg>
           </a>
         ))}
         <a
-            href={`mailto:${profileData.email}`}
-            aria-label="Email"
-            className="text-gray-500 dark:text-gray-400 hover:text-primary transition-colors hover:scale-110 transform duration-200"
+          href={`mailto:${profileData.email}`}
+          aria-label="Email"
+          className="text-gray-500 dark:text-gray-400 hover:text-primary transition-colors hover:scale-110 transform duration-200"
         >
-            <svg viewBox="0 0 24 24" className="w-6 h-6 fill-current">
-                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
-            </svg>
+          <svg viewBox="0 0 24 24" className="w-6 h-6 fill-current">
+            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+          </svg>
         </a>
       </div>
     </div>
